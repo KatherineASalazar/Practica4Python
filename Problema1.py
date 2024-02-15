@@ -14,7 +14,6 @@
 #- Muestra el costo actual de “n” Bitcoins en USD con cuatro decimales, usando , como
 #separador de miles.
 
-pip install requests
 
 import requests
 
