@@ -1,9 +1,9 @@
-#Cree un programa el cual cumpla con las siguientes especificaciones:
-#- Solicite al usuario el nombre de una fuente a utilizar. En caso no sé ingrese ninguna
-#fuente, su programa deberá seleccionar de forma aleatoria la fuente a utilizar.
+#  Cree un programa el cual cumpla con las siguientes especificaciones:
+#- Solicite al usuario el nombre de una fuente a utilizar. En caso no se ingrese ninguna
+#  fuente, su programa deberá seleccionar de forma aleatoria la fuente a utilizar.
 #- Solicite al usuario un texto.
 #- Finalmente, su programa deberá imprimir el texto solicitado usando la fuente
-#apropiada.
+#  apropiada.
 #Notas:
 #- Instalar la librería usando: pip install pyfiglet
 #- Para usar la librería, debe hacer:
@@ -14,8 +14,7 @@
 #- Finalmente podrá imprimir el texto usando : print(figlet.renderText(texto_imprimir))
 #- Recuerde que random tiene un método random choice
 
-pip install pyfiglet
-
+import os
 from pyfiglet import Figlet
 
 import random
